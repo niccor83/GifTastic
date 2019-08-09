@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Food & Drink</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
+            <h1 class="display-4">Food & Drink</h1>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                One of three columns
+                <div id="buttons">This is where the buttons go</div>
             </div>
-            <div class="col-sm-4">
-                One of three columns
+            <div class="col-sm-4" id="search">
+                <form id="gif-form">
+                    <label for="gif-input">Add a New Category:</label>
+                    <input type="text" id="gif-input"><br>
+                    <input id="gif-add" type="submit" value="Add Category">
+                </form>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm">
-                One of three columns
+            <div class="col-sm" id="gif">
+                This is where the gifs display
             </div>
         </div>
     </div>
