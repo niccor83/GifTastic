@@ -13,13 +13,13 @@
 <body>
     
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="header">
         <div class="container">
             <h1 class="display-4">Food & Drink</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead">This app displays food or drink related gifs, select a category or add one of your own. </p>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="main">
         <div class="row">
             <div class="col-sm-8 p-3">
                 <div id="button-display">This is where the buttons go</div>
@@ -27,8 +27,8 @@
             <div class="col-sm-4 p-3" id="search">
                 <form id="gif-form">
                     <label for="gif-input">Add a New Button:</label><br>
-                    <input type="text" id="gif-input" placeholder="Enter a Food or Drink"><br>
-                    <input id="gif-add" type="submit" value="Add Category">
+                    <input type="text" class="form-control" id="gif-input" placeholder="Enter a Food or Drink"><br>
+                    <input id="gif-add" type="submit" class="form-control" value="Add Category">
                 </form>
             </div>
         </div>
