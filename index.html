@@ -11,8 +11,8 @@
 
 </head>
 <body>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
+    
+
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Food & Drink</h1>
@@ -21,35 +21,27 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
-                <div id="buttons">This is where the buttons go</div>
+            <div class="col-sm-8 p-3">
+                <div id="button-display">This is where the buttons go</div>
             </div>
-            <div class="col-sm-4" id="search">
+            <div class="col-sm-4 p-3" id="search">
                 <form id="gif-form">
-                    <label for="gif-input">Add a New Category:</label>
-                    <input type="text" id="gif-input"><br>
+                    <label for="gif-input">Add a New Button:</label><br>
+                    <input type="text" id="gif-input" placeholder="Enter a Food or Drink"><br>
                     <input id="gif-add" type="submit" value="Add Category">
                 </form>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm" id="gif">
+            <div class="col-sm p-3" id="gif-display">
                 This is where the gifs display
             </div>
         </div>
     </div>
-    
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
 </body>
 </html>
